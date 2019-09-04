@@ -9,6 +9,7 @@
           <include name="tearDown"/>
           <include name="validateLogoTest"/>
           <include name="setUp"/>
+          <include name="validateHomePageTitleTest"/>
         </methods>
       </class> <!-- com.sct.qa.testcases.HomePageTest -->
     </classes>
