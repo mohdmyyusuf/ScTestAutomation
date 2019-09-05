@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.sct.qa.base.Base;
@@ -15,7 +16,7 @@ import com.sct.qa.pages.UserPage;
 import com.sct.qa.util.LoggerTest;
 
 
-
+@Listeners(com.sct.qa.util.ListenerTest.class)
 public class HomePageTest extends Base{
 	static Logger log = Logger.getLogger(HomePageTest.class.getName());
 	HomePage homePage;
