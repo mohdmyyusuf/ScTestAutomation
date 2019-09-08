@@ -47,11 +47,19 @@ public class HomePage extends Base{
 	}
 	
 	public UserPage signIn() {
+		try {
 		signInLink.click();
-		userName.sendKeys(prop.getProperty("username"));
-		password.sendKeys("password");
-		signInBtn.click();
+		Thread.sleep(2000);
 		
+		userName.sendKeys(prop.getProperty("username"));
+		Thread.sleep(2000);
+		password.sendKeys(prop.getProperty("password"));
+		Thread.sleep(2000);
+		signInBtn.click();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return new UserPage();
 	}
 	
