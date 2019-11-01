@@ -45,7 +45,7 @@ public class Base {
 		String browserName = prop.getProperty("browser");
 		if(browserName.equals("chrome")) 
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\myusuf\\git\\MYGitRepo\\SCTestAutomationTNG\\Drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\myusuf\\git\\MYGitRepo\\SCTestAutomationTNG\\Drivers\\chromedriver_win32\\chromedriver.exe");
 			
 			//ChromeOptions options = new ChromeOptions();
 			//options.addArguments("--disable-notifications");

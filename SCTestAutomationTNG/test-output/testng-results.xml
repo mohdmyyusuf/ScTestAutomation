@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-08T08:38:34Z" name="Default suite" finished-at="2019-09-08T08:40:52Z" duration-ms="137348">
+  <suite name="Default suite" duration-ms="105906" started-at="2019-10-18T11:40:52Z" finished-at="2019-10-18T11:42:37Z">
     <groups>
     </groups>
-    <test started-at="2019-09-08T08:38:34Z" name="Default test" finished-at="2019-09-08T08:40:52Z" duration-ms="137348">
-      <class name="com.sct.qa.testcases.UserPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sct.qa.testcases.UserPageTest@13c10b87]" started-at="2019-09-08T08:38:34Z" name="setUp" finished-at="2019-09-08T08:39:29Z" duration-ms="54783" status="PASS">
+    <test name="Default test" duration-ms="105906" started-at="2019-10-18T11:40:52Z" finished-at="2019-10-18T11:42:37Z">
+      <class name="com.sct.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sct.qa.testcases.HomePageTest@1ed4004b]" name="setUp" is-config="true" duration-ms="36326" started-at="2019-10-18T11:40:52Z" finished-at="2019-10-18T11:41:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getUserNameTest()[pri:0, instance:com.sct.qa.testcases.UserPageTest@13c10b87]" started-at="2019-09-08T08:39:29Z" name="getUserNameTest" finished-at="2019-09-08T08:39:38Z" duration-ms="8867" status="PASS">
+        <test-method status="PASS" signature="validateHomePageTitleTest()[pri:1, instance:com.sct.qa.testcases.HomePageTest@1ed4004b]" name="validateHomePageTitleTest" duration-ms="61" started-at="2019-10-18T11:41:28Z" finished-at="2019-10-18T11:41:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserNameTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sct.qa.testcases.UserPageTest@13c10b87]" started-at="2019-09-08T08:39:38Z" name="tearDown" finished-at="2019-09-08T08:39:39Z" duration-ms="1571" status="PASS">
+        </test-method> <!-- validateHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sct.qa.testcases.HomePageTest@1ed4004b]" name="tearDown" is-config="true" duration-ms="1103" started-at="2019-10-18T11:41:28Z" finished-at="2019-10-18T11:41:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sct.qa.testcases.UserPageTest@13c10b87]" started-at="2019-09-08T08:39:39Z" name="setUp" finished-at="2019-09-08T08:40:09Z" duration-ms="29762" status="PASS">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sct.qa.testcases.HomePageTest@1ed4004b]" name="setUp" is-config="true" duration-ms="28343" started-at="2019-10-18T11:41:29Z" finished-at="2019-10-18T11:41:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mouseHoverPfName()[pri:0, instance:com.sct.qa.testcases.UserPageTest@13c10b87]" started-at="2019-09-08T08:40:09Z" name="mouseHoverPfName" finished-at="2019-09-08T08:40:20Z" duration-ms="10464" status="PASS">
+        <test-method status="PASS" signature="validateLogoTest()[pri:2, instance:com.sct.qa.testcases.HomePageTest@1ed4004b]" name="validateLogoTest" duration-ms="514" started-at="2019-10-18T11:41:57Z" finished-at="2019-10-18T11:41:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mouseHoverPfName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sct.qa.testcases.UserPageTest@13c10b87]" started-at="2019-09-08T08:40:20Z" name="tearDown" finished-at="2019-09-08T08:40:21Z" duration-ms="1319" status="PASS">
+        </test-method> <!-- validateLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sct.qa.testcases.HomePageTest@1ed4004b]" name="tearDown" is-config="true" duration-ms="1135" started-at="2019-10-18T11:41:58Z" finished-at="2019-10-18T11:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sct.qa.testcases.UserPageTest@13c10b87]" started-at="2019-09-08T08:40:21Z" name="setUp" finished-at="2019-09-08T08:40:50Z" duration-ms="28603" status="PASS">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sct.qa.testcases.HomePageTest@1ed4004b]" name="setUp" is-config="true" duration-ms="21828" started-at="2019-10-18T11:41:59Z" finished-at="2019-10-18T11:42:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUserPageTitleTest()[pri:0, instance:com.sct.qa.testcases.UserPageTest@13c10b87]" started-at="2019-09-08T08:40:50Z" name="verifyUserPageTitleTest" finished-at="2019-09-08T08:40:50Z" duration-ms="105" status="PASS">
+        <test-method status="PASS" signature="logiTest()[pri:3, instance:com.sct.qa.testcases.HomePageTest@1ed4004b]" name="logiTest" duration-ms="15249" started-at="2019-10-18T11:42:21Z" finished-at="2019-10-18T11:42:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUserPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sct.qa.testcases.UserPageTest@13c10b87]" started-at="2019-09-08T08:40:50Z" name="tearDown" finished-at="2019-09-08T08:40:52Z" duration-ms="1783" status="PASS">
+        </test-method> <!-- logiTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sct.qa.testcases.HomePageTest@1ed4004b]" name="tearDown" is-config="true" duration-ms="1259" started-at="2019-10-18T11:42:36Z" finished-at="2019-10-18T11:42:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.sct.qa.testcases.UserPageTest -->
+      </class> <!-- com.sct.qa.testcases.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
